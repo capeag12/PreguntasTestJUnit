@@ -22,7 +22,7 @@ public class DAOPreguntas implements IDAOPreguntas{
         private Conexion conexion;
         
 
-    private DAOPreguntas() {
+    public DAOPreguntas() {
         conexion = new Conexion("juegoPreguntas", "root", "");
         
       

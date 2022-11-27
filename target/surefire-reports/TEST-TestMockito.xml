@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestDAO" time="0.047" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestMockito" time="0.655" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\capea\AppData\Local\Temp\surefire11951629096393518464\surefirebooter16652195463522861089.jar C:\Users\capea\AppData\Local\Temp\surefire11951629096393518464 2022-11-27T12-06-23_675-jvmRun1 surefire3376484353876304312tmp surefire_015942561459740564894tmp"/>
+    <property name="sun.java.command" value="C:\Users\capea\AppData\Local\Temp\surefire1990737011421333020\surefirebooter12022269258399639934.jar C:\Users\capea\AppData\Local\Temp\surefire1990737011421333020 2022-11-27T12-06-12_527-jvmRun1 surefire14765443059101679971tmp surefire_016404377791384615691tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="TestDAO"/>
+    <property name="test" value="TestMockito"/>
     <property name="surefire.test.class.path" value="D:\Instituto\3er anno-Segundo\Acceso a datos\PreguntasTestJUnit\target\test-classes;D:\Instituto\3er anno-Segundo\Acceso a datos\PreguntasTestJUnit\target\classes;C:\Users\capea\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar;C:\Users\capea\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\capea\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\capea\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\capea\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\capea\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\capea\.m2\repository\org\mockito\mockito-core\4.6.1\mockito-core-4.6.1.jar;C:\Users\capea\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\capea\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.10\byte-buddy-agent-1.12.10.jar;C:\Users\capea\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\capea\.m2\repository\org\mockito\mockito-junit-jupiter\4.6.1\mockito-junit-jupiter-4.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\capea"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\capea\AppData\Local\Temp\surefire11951629096393518464\surefirebooter16652195463522861089.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\capea\AppData\Local\Temp\surefire1990737011421333020\surefirebooter12022269258399639934.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.2.1+1-1"/>
@@ -58,6 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="testCantidadPreguntas" classname="TestDAO" time="0.029"/>
-  <testcase name="testCantidadPartidas" classname="TestDAO" time="0.001"/>
+  <testcase name="testCantidadPreguntas" classname="TestMockito" time="0.636"/>
+  <testcase name="testCantidadPartidas" classname="TestMockito" time="0.002"/>
 </testsuite>
