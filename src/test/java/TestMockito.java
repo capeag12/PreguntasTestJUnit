@@ -28,6 +28,7 @@ import org.mockito.Mockito;
  */
 
 public class TestMockito {
+    
     Comprobar comp;
     @Mock
     DAOPreguntas dao;
